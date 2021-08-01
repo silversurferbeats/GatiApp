@@ -1,7 +1,13 @@
 
 
 
-.boton {
+.imagen {
+  width: 500px;
+  height: 500px;
+}
+
+
+.boton{
   display: block;
   position: absolute;
   justify-content: center;

@@ -1,5 +1,9 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import GetGati from '../service/index';
+import Box from '@material-ui/core/Box';
+import { Button } from '@material-ui/core';
+
+
 
 
 const Gatipic = () => {
@@ -17,22 +21,30 @@ const Gatipic = () => {
     handleGati();
   },[]);
 
-  console.log(handleGati());
    
 
   return(
     <div>
-      <img
-        id={1}
-        className="imagen"
-        src={GatiUrl}
-      />
-      <button
+
+      <Box component="span" m={1}>
+        <img
+          id={1}
+          className="imagen"
+          src={GatiUrl}
+        />
+      </Box>
+
+
+      
+      
+      <Button
+        variant="contained" 
+        color="secondary"
         className="boton"
         onClick={() => handleGati()}
-      >
-      Next
-      </button>
+        >Next
+      </Button>
+
     </div>
   )
 }
