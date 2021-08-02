@@ -1,14 +1,23 @@
 
 
 
+
+.container {
+  width: 400x;
+  justify-items: center;
+  text-align: center;
+  border: black solid 2px;
+
+}
+
 .imagen {
   width: 500px;
   height: 500px;
 }
 
 
-.boton{
+.MuiButton-root  {
   display: block;
   position: absolute;
-  justify-content: center;
+  color:aqua;
 }

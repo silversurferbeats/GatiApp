@@ -13,8 +13,9 @@ const Gatipic = () => {
   
   const handleGati = async () => {
     //aca va el swich del useState
-    let newUrl = await GetGati;
+    let newUrl = await GetGati();
     setGatiUrl(newUrl);
+  
   }
 
   useEffect(() => {
@@ -24,7 +25,7 @@ const Gatipic = () => {
    
 
   return(
-    <div>
+    <div className="container">
 
       <Box component="span" m={1}>
         <img
@@ -41,7 +42,7 @@ const Gatipic = () => {
         variant="contained" 
         color="secondary"
         className="boton"
-        onClick={() => handleGati()}
+        onClick={handleGati}  
         >Next
       </Button>
 
