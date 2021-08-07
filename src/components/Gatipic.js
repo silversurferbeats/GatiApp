@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import GetGati from '../service/index';
+import {GetGati, GetGatiGiff} from '../service/index';
 import Box from '@material-ui/core/Box';
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles'
@@ -25,6 +25,7 @@ const useStyle = makeStyles({
     borderRadius: '40%',
     display: 'block',
     position: 'relative',
+    margin: '10px',
     marginLeft: 'auto',
     marginRight: 'auto',
     boxShadow: '0px 6px 16px gray',
@@ -37,6 +38,7 @@ const Gatipic = () => {
   const classes = useStyle();
 
   const [GatiUrl, setGatiUrl] = useState();
+  const [ GiffUrl, setGiffUrl ] = useState();
 
   
   const handleGati = async () => {
@@ -46,8 +48,16 @@ const Gatipic = () => {
   
   }
 
+  const handleGatiGiff = async () => {
+    //aca va el swich del useState
+    let newUrlGiff = await GetGatiGiff();
+    setGiffUrl(newUrlGiff);
+  
+  }
+
   useEffect(() => {
     handleGati();
+    handleGatiGiff();
   },[]);
 
    
@@ -60,7 +70,7 @@ const Gatipic = () => {
           <img
             id={1}
             className="imagen"
-            src={GatiUrl}
+            src={GatiUrl, GiffUrl}
           />
         </Box>
         
@@ -71,6 +81,15 @@ const Gatipic = () => {
           onClick={handleGati}  
           >
             Next
+        </Button>
+
+        <Button
+          variant="contained" 
+          color="primary"
+          className={classes.boton}
+          onClick={handleGatiGiff}  
+          >
+            GIFF
         </Button>
 
       </div>
