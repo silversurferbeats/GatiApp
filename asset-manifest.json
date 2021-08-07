@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/GatiApp/static/css/main.0a66db3a.chunk.css",
-    "main.js": "/GatiApp/static/js/main.ad323614.chunk.js",
-    "main.js.map": "/GatiApp/static/js/main.ad323614.chunk.js.map",
+    "main.js": "/GatiApp/static/js/main.29c7ce27.chunk.js",
+    "main.js.map": "/GatiApp/static/js/main.29c7ce27.chunk.js.map",
     "runtime-main.js": "/GatiApp/static/js/runtime-main.159dbac6.js",
     "runtime-main.js.map": "/GatiApp/static/js/runtime-main.159dbac6.js.map",
-    "static/js/2.4e1302b7.chunk.js": "/GatiApp/static/js/2.4e1302b7.chunk.js",
-    "static/js/2.4e1302b7.chunk.js.map": "/GatiApp/static/js/2.4e1302b7.chunk.js.map",
+    "static/js/2.40ad3961.chunk.js": "/GatiApp/static/js/2.40ad3961.chunk.js",
+    "static/js/2.40ad3961.chunk.js.map": "/GatiApp/static/js/2.40ad3961.chunk.js.map",
     "static/js/3.bf5b5b77.chunk.js": "/GatiApp/static/js/3.bf5b5b77.chunk.js",
     "static/js/3.bf5b5b77.chunk.js.map": "/GatiApp/static/js/3.bf5b5b77.chunk.js.map",
     "index.html": "/GatiApp/index.html",
     "static/css/main.0a66db3a.chunk.css.map": "/GatiApp/static/css/main.0a66db3a.chunk.css.map",
-    "static/js/2.4e1302b7.chunk.js.LICENSE.txt": "/GatiApp/static/js/2.4e1302b7.chunk.js.LICENSE.txt"
+    "static/js/2.40ad3961.chunk.js.LICENSE.txt": "/GatiApp/static/js/2.40ad3961.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.159dbac6.js",
-    "static/js/2.4e1302b7.chunk.js",
+    "static/js/2.40ad3961.chunk.js",
     "static/css/main.0a66db3a.chunk.css",
-    "static/js/main.ad323614.chunk.js"
+    "static/js/main.29c7ce27.chunk.js"
   ]
 }
