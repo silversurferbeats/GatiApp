@@ -70,7 +70,12 @@ const Gatipic = () => {
           <img
             id={1}
             className="imagen"
-            src={GatiUrl, GiffUrl}
+            src={GatiUrl}
+          />
+          <img
+            id={1}
+            className="imagen"
+            src={GiffUrl}
           />
         </Box>
         
